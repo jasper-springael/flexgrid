@@ -1,0 +1,109 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Start of css */
+
+
+img {
+    height: 125x;
+    width: 200px;
+}
+#container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80px;
+    background-color: black;
+    margin-bottom: 40px;
+}
+#container1 > h1 {
+    margin: auto;
+    color: rgb(247, 246, 242);
+    font-size: 30px;
+}
+.container2 {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.child2-1 {
+    flex: 0 0 30%;
+    padding-right: 30px;
+}
+.child2-1 > h2 {
+    font-weight: bold;
+    text-align: center;
+    padding-left: 30px;
+}
+.child2-2 {
+    flex: 0 0 30%;
+    padding: 7px;
+}
+.child2-2 > img {
+    width: 360px;
+    height: 220px;
+}
+.container3 {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+.container3 > div {
+    flex: 0 0 20%;
+}
+.container3 p {
+    line-height: 1.4em;
+}
+
+
+
+
+
